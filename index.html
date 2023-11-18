@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>test</title>
+  <link rel="icon" href="https://th.bing.com/th/id/R.71354d5369dcd2854e03011e5f658b12?rik=jstPU9IidDTapg&riu=http%3a%2f%2fwonderfulengineering.com%2fwp-content%2fuploads%2f2016%2f03%2fSad-Wallpaper-6.jpg&ehk=p894KdW2LiH5PHg8UMFF7QwRb%2bG1bh%2bucddfpo%2fHnZw%3d&risl=&pid=ImgRaw&r=0">
+  <link rel="stylesheet" href="css.css">
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" id="display" readonly>
+    <br>
+    <button onclick="appendNumber('1')">1</button>
+    <button onclick="appendNumber('2')">2</button>
+    <button onclick="appendNumber('3')">3</button>
+    <button onclick="appendOperator('+')">+</button>
+    <br>
+    <button onclick="appendNumber('4')">4</button>
+    <button onclick="appendNumber('5')">5</button>
+    <button onclick="appendNumber('6')">6</button>
+    <button onclick="appendOperator('-')">-</button>
+    <br>
+    <button onclick="appendNumber('7')">7</button>
+    <button onclick="appendNumber('8')">8</button>
+    <button onclick="appendNumber('9')">9</button>
+    <button onclick="appendOperator('*')">*</button>
+    <br>
+    <button onclick="appendNumber('0')">0</button>
+    <button onclick="clearDisplay()">DEL</button>
+    <button onclick="calculateResult()">=</button>
+    <button onclick="appendOperator('/')">/</button>
+  </div>
+  <script src="js.js"></script>
+</body>
+</html>
